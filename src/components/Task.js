@@ -1,7 +1,7 @@
 // src/components/Task.js
 
-import React from "react";
 import PropTypes from "prop-types";
+import React from "react";
 
 export default function Task({
   task: { id, title, state },
@@ -25,7 +25,6 @@ export default function Task({
           value={title}
           readOnly={true}
           placeholder="Input title"
-          style={{ background: "red" }}
         />
       </div>
 
